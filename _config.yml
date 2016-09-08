@@ -1,9 +1,9 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: Joakim Wimmerstedt - Portfolio
-description: The portfolio and website of swedish front-end developer Joakim Wimmerstedt
+title: L09 SUMO EXTRAVAGANZA
+description: A student group over at KTH, making strong robots with the aim to win the sumo tournament
 tagline:
-url: http://127.0.0.1:4000
+url: http://localhost:3001/
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
@@ -18,9 +18,6 @@ author:
   email: joakim.wimmerstedt@hyperisland.se
   bio: Front-End Developer with a focus on performance and usability. I also brew beer.
   twitter: twitter.com/cupofjoakim
-
-# general setting for Jekyll
-googleAnalytics: UA-49166415-1
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts

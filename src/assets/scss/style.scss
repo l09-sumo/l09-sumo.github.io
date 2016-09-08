@@ -1,12 +1,12 @@
-/* 
+/*
 The main SCSS file for everything, yep
 */
 
-$lightBlue: #4A90E2;
+$lightPurple: #701BB2;
 $darkBlue: #4F5A63;
 $mediumGray: #787E83;
 $lightGray: #FAFAFA;
-$orange: #F5A623;
+$orange: #FFC519;
 
 @import "layout";
 @import "typography";
@@ -27,4 +27,3 @@ html {
 .hidden {
     display: none;
 }
-

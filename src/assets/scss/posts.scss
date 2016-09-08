@@ -40,7 +40,6 @@
 
 .posts, article.main {
     width: 100%;
-    margin-top: 100px;
 
     @media (max-width: 1120px) {
         margin-top: 90px;
@@ -88,6 +87,20 @@
             text-transform: capitalize;
         }
 
+        .video-wrapper {
+          	position: relative;
+          	padding-bottom: 56.25%; /* 16:9 */
+          	padding-top: 25px;
+          	height: 0;
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
         h1.post-title {
             margin-top: 5px;
             margin-bottom: 8px;
@@ -109,12 +122,12 @@
             }
 
             a {
-                color: $lightBlue;
+                color: $lightPurple;
 
                 &:visited {
-                    color: $lightBlue;
+                    color: $lightPurple;
                 }
-                
+
                 &:hover {
                     color: $orange;
                 }
@@ -173,7 +186,7 @@
             }
 
         }
-        
+
     }
 }
 

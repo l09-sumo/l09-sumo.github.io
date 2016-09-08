@@ -1,4 +1,4 @@
-/* 
+/*
 The main SCSS file for everything, yep
 */
 .fifty, .pagination-item {
@@ -43,7 +43,8 @@ html {
   color: #787E83; }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  cursor: pointer; }
 
 * {
   -webkit-font-smoothing: antialiased; }
@@ -85,19 +86,11 @@ a {
       left: 0; } }
 
 .profile {
-  background: #4A90E2;
+  background: #701BB2;
   font-family: 'Droid Sans', sans-serif; }
-  .profile img.logo {
-    width: 17%;
-    margin: 150px auto 0;
-    display: block;
-    min-width: 120px;
-    -webkit-animation: float 3s infinite ease-in-out alternate;
-            animation: float 3s infinite ease-in-out alternate; }
-    @media (max-width: 1120px) {
-      .profile img.logo {
-        width: 10%;
-        margin: 75px auto 50px; } }
+  .profile .lego {
+    width: 192px;
+    margin-bottom: 20px; }
   .profile .shadow {
     width: 17%;
     min-width: 130px;
@@ -134,16 +127,18 @@ a {
         color: #fff; }
       .profile .about a:hover {
         color: #333; }
-      .profile .about a:after {
-        content: '';
-        display: block;
-        position: absolute;
-        top: calc(100% - 1px);
-        left: 0;
-        width: 100%;
-        height: 1px;
-        background: #fff;
-        opacity: .6; }
+    .profile .about .description a:hover {
+      color: #FFC519; }
+    .profile .about .description a:after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: calc(100% - 1px);
+      left: 0;
+      width: 100%;
+      height: 1px;
+      background: #fff;
+      opacity: .6; }
     .profile .about .contact {
       margin: 0;
       padding: 0;
@@ -177,11 +172,12 @@ a {
         width: 360px;
         margin: 0 auto 40px;
         text-align: center;
-        color: #fff; } }
+        color: #fff;
+        padding-top: 30px; } }
     @media (max-width: 400px) {
       .profile .about {
         width: 100%;
-        padding: 0 20px; } }
+        padding: 30px 20px 0; } }
 
 @-webkit-keyframes float {
   from {
@@ -212,7 +208,7 @@ a {
     margin-left: 20px;
     color: #4F5A63; }
     .filter li:hover {
-      color: #F5A623;
+      color: #FFC519;
       cursor: pointer; }
     .filter li.visibly-hidden {
       opacity: 0;
@@ -229,8 +225,7 @@ a {
       width: 100%; } }
 
 .posts, article.main {
-  width: 100%;
-  margin-top: 100px; }
+  width: 100%; }
   @media (max-width: 1120px) {
     .posts, article.main {
       margin-top: 90px; } }
@@ -264,14 +259,26 @@ a {
       color: #4F5A63; }
     .posts .post .post-cat, article.main .post .post-cat {
       font-family: 'Droid Sans', sans-serif;
-      color: #F5A623;
+      color: #FFC519;
       text-transform: capitalize; }
+    .posts .post .video-wrapper, article.main .post .video-wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0; }
+      .posts .post .video-wrapper iframe, article.main .post .video-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
     .posts .post h1.post-title, article.main .post h1.post-title {
       margin-top: 5px;
       margin-bottom: 8px;
       font-size: 28px; }
       .posts .post h1.post-title:hover a, article.main .post h1.post-title:hover a {
-        color: #F5A623; }
+        color: #FFC519; }
     .posts .post p, article.main .post p {
       line-height: 24px;
       margin: 0 0 30px 0; }
@@ -280,18 +287,18 @@ a {
         margin-top: 10px;
         display: inline-block; }
       .posts .post p a, article.main .post p a {
-        color: #4A90E2; }
+        color: #701BB2; }
         .posts .post p a:visited, article.main .post p a:visited {
-          color: #4A90E2; }
+          color: #701BB2; }
         .posts .post p a:hover, article.main .post p a:hover {
-          color: #F5A623; }
+          color: #FFC519; }
     .posts .post .arrow, article.main .post .arrow {
       display: block;
       line-height: 12px;
       font-size: 24px;
       color: #4F5A63; }
       .posts .post .arrow:hover, article.main .post .arrow:hover {
-        color: #F5A623; }
+        color: #FFC519; }
     .posts .post.case, article.main .post.case {
       margin-bottom: 0px;
       margin-top: 0px;
