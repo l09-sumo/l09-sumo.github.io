@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>L09 SUMO EXTRAVAGANZA</title>
+ <link href="http://l09-sumo.github.io/atom.xml" rel="self"/>
+ <link href="http://l09-sumo.github.io/"/>
+ <updated>2016-09-08T17:41:09+02:00</updated>
+ <id>http://l09-sumo.github.io</id>
+ <author>
+   <name>Joakim Wimmerstedt</name>
+   <email>joakim.wimmerstedt@hyperisland.se</email>
+ </author>
+
+ 
+ <entry>
+   <title>The beginning</title>
+   <link href="http://l09-sumo.github.io/2016/09/08/First_post/"/>
+   <updated>2016-09-08T00:00:00+02:00</updated>
+   <id>http://l09-sumo.github.io/2016/09/08/First_post</id>
+   <content type="html">&lt;p&gt;As a part in the course Engineering Methods (II3000 @ KTH) all students are expected to form groups and design, construct and program a Lego Robot using a Lego Mindstorm/NXT kit provided by the school.&lt;/p&gt;
+
+&lt;p&gt;The robots are then set to compete against eachother in a tournament where the goal is to push the opponent outside of a ring. It&amp;rsquo;s called The Sumo Challenge, and is a concept that has been used at numerous institutions all over the world.&lt;/p&gt;
+
+&lt;p&gt;We&amp;rsquo;re a group of four students working together to try and find the best possible designs for how to deal with this challenge. This is the first entry in many documenting our process throughout the project. We are excited to make our mark in the Lego Sumo community and we look forward to winning the tournament.&lt;/p&gt;
+
+&lt;p&gt;As an example on what we &lt;strong&gt;won&amp;rsquo;t&lt;/strong&gt; create, here&amp;rsquo;s a video:
+&lt;div class=&quot;video-wrapper&quot;&gt;
+    &amp;lt;!&amp;ndash; Copy &amp;amp; Pasted from YouTube &amp;ndash;&amp;gt;
+    &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UIWWLg4wLEY&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
