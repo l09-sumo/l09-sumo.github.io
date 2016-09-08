@@ -1,0 +1,30 @@
+---
+layout: default
+title: Home
+---
+
+<div class="posts">
+
+
+  {% for post in paginator.posts %}
+    {% include list-article.html %}
+  {% endfor %}
+
+
+</div>
+
+
+{% if paginator.next_page || paginator.previous_page %}
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="pagination-item older" href="/page{{paginator.next_page}}"></a>
+    {% endif %}
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="pagination-item newer" href="/"></a>
+      {% else %}
+        <a class="pagination-item newer" href="/page{{paginator.previous_page}}"></a>
+      {% endif %}
+    {% endif %}
+  </div>
+{% endif %}
