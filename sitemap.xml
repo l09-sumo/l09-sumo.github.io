@@ -2,10 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://l09-sumo.github.io/</loc>
-    <lastmod>2016-09-08T17:41:09+02:00</lastmod>
+    <lastmod>2016-09-19T15:00:08+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+    <url>
+      <loc>http://l09-sumo.github.io/2016/09/19/NXC-on-mac/</loc>
+      
+        <lastmod>2016-09-19T00:00:00+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
   
     <url>
       <loc>http://l09-sumo.github.io/2016/09/08/First_post/</loc>
@@ -24,7 +37,7 @@
   <url>
     <loc>http://l09-sumo.github.io/404/</loc>
     
-      <lastmod>2016-09-08T17:41:09+02:00</lastmod>
+      <lastmod>2016-09-19T15:00:08+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -37,7 +50,7 @@
   <url>
     <loc>http://l09-sumo.github.io/atom.xml</loc>
     
-      <lastmod>2016-09-08T17:41:09+02:00</lastmod>
+      <lastmod>2016-09-19T15:00:08+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -50,7 +63,7 @@
   <url>
     <loc>http://l09-sumo.github.io/</loc>
     
-      <lastmod>2016-09-08T17:41:09+02:00</lastmod>
+      <lastmod>2016-09-19T15:00:08+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -63,7 +76,7 @@
   <url>
     <loc>http://l09-sumo.github.io/sitemap.xml</loc>
     
-      <lastmod>2016-09-08T17:41:09+02:00</lastmod>
+      <lastmod>2016-09-19T15:00:08+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>

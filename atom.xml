@@ -4,13 +4,63 @@
  <title>L09 SUMO EXTRAVAGANZA</title>
  <link href="http://l09-sumo.github.io/atom.xml" rel="self"/>
  <link href="http://l09-sumo.github.io/"/>
- <updated>2016-09-08T17:41:09+02:00</updated>
+ <updated>2016-09-19T15:00:08+02:00</updated>
  <id>http://l09-sumo.github.io</id>
  <author>
    <name>Joakim Wimmerstedt</name>
    <email>joakim.wimmerstedt@hyperisland.se</email>
  </author>
 
+ 
+ <entry>
+   <title>How to program your Lego Bot with NXC</title>
+   <link href="http://l09-sumo.github.io/2016/09/19/NXC-on-mac/"/>
+   <updated>2016-09-19T00:00:00+02:00</updated>
+   <id>http://l09-sumo.github.io/2016/09/19/NXC-on-mac</id>
+   <content type="html">&lt;p&gt;When starting with Lego programing, Mac users are often met with difficulties when it comes to language selection. Whilst many languages exist that one could write mindstorm-programs with, not many are OSX compatible. In reality - the only viable option apart from the visual lego language is NXC.&lt;/p&gt;
+
+&lt;p&gt;Starting with NXC is however also a big hurdle if you&amp;rsquo;re not used to working with the terminal. Here&amp;rsquo;s where this short guide comes in.&lt;/p&gt;
+
+&lt;h2&gt;What you&amp;rsquo;ll need&lt;/h2&gt;
+
+&lt;p&gt;To get started with developing there&amp;rsquo;s a few things you&amp;rsquo;ll need.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Your charged lego robot&lt;/li&gt;
+&lt;li&gt;A text editor (I recommend &lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt; from Github!)&lt;/li&gt;
+&lt;li&gt;A USB-cable&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Lets start off by downloading the files we need.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Go to &lt;a href=&quot;http://www.lego.com/sv-se/mindstorms/downloads&quot;&gt;mindstorms downloads&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Scroll down to &amp;ldquo;NEDLADDNING AV NXT-PROGRAMVARA (PC/MAC)&amp;rdquo; and select the NXT Fantom driver.&lt;/li&gt;
+&lt;li&gt;Install the NXT Fantom Driver.&lt;/li&gt;
+&lt;li&gt;Go to the &lt;a href=&quot;http://bricxcc.sourceforge.net/nbc/release/index.html&quot;&gt;bricxcc sourceforge page for NBC&lt;/a&gt; and download the latest executable for Mac&lt;/li&gt;
+&lt;li&gt;Extract the contents for the .tgz-file you just downloaded in a location of your choice.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2&gt;Using NXC and running the code&lt;/h2&gt;
+
+&lt;p&gt;While developing, you write your code in a text editor as per the NXC documentation. When you want to try out the code on the robot, you do the following:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Open up a terminal and navigate to the folder. If you placed the contents on your desktop, the command you need to run will be &lt;code&gt;cd ~/Desktop/&amp;lt;name of the folder&amp;gt;&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Plug in your lego robot to your mac.&lt;/li&gt;
+&lt;li&gt;Run the following command and replace &amp;ldquo;file-path&amp;rdquo; with the path to your .nxc file. If you&amp;rsquo;re having trouble finding the path, simply drag the .nxc file into the terminal window.
+&lt;code&gt;./nbc -d file-path&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;If you want to, you can replace the &amp;ldquo;-d&amp;rdquo; with a &amp;ldquo;-r&amp;rdquo; to execute the code automatically when it&amp;rsquo;s downloaded to the robot.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s all there is to it! Happy Hacking! :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://media.giphy.com/media/DBfYJqH5AokgM/giphy.gif&quot; alt=&quot;hacking&quot;&gt;&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>The beginning</title>
