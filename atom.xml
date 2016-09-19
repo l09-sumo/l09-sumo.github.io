@@ -4,7 +4,7 @@
  <title>L09 SUMO EXTRAVAGANZA</title>
  <link href="http://l09-sumo.github.io/atom.xml" rel="self"/>
  <link href="http://l09-sumo.github.io/"/>
- <updated>2016-09-19T15:00:08+02:00</updated>
+ <updated>2016-09-19T15:02:58+02:00</updated>
  <id>http://l09-sumo.github.io</id>
  <author>
    <name>Joakim Wimmerstedt</name>
@@ -13,7 +13,7 @@
 
  
  <entry>
-   <title>How to program your Lego Bot with NXC</title>
+   <title>How to program your Lego Bot with NXC (on a Mac)</title>
    <link href="http://l09-sumo.github.io/2016/09/19/NXC-on-mac/"/>
    <updated>2016-09-19T00:00:00+02:00</updated>
    <id>http://l09-sumo.github.io/2016/09/19/NXC-on-mac</id>
