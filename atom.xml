@@ -4,7 +4,7 @@
  <title>L09 SUMO EXTRAVAGANZA</title>
  <link href="http://l09-sumo.github.io/atom.xml" rel="self"/>
  <link href="http://l09-sumo.github.io/"/>
- <updated>2016-10-06T10:13:31+02:00</updated>
+ <updated>2016-10-06T10:15:04+02:00</updated>
  <id>http://l09-sumo.github.io</id>
  <author>
    <name>Joakim Wimmerstedt</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Introducing Pentabot</title>
-   <link href="http://l09-sumo.github.io/2016/09/19/pentabot/"/>
-   <updated>2016-09-19T00:00:00+02:00</updated>
-   <id>http://l09-sumo.github.io/2016/09/19/pentabot</id>
+   <link href="http://l09-sumo.github.io/2016/10/06/pentabot/"/>
+   <updated>2016-10-06T00:00:00+02:00</updated>
+   <id>http://l09-sumo.github.io/2016/10/06/pentabot</id>
    <content type="html">&lt;p&gt;Well boys, we did it. We finished our lego bot. Pentabot (named after the five wheels he&amp;rsquo;s resting on) will be going ham on the competition in the final sumo tournament next week.&lt;/p&gt;
 
 &lt;p&gt;He&amp;rsquo;s looking forward to taking home his first title.&lt;/p&gt;
