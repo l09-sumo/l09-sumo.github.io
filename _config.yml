@@ -3,7 +3,7 @@
 title: L09 SUMO EXTRAVAGANZA
 description: A student group over at KTH, making strong robots with the aim to win the sumo tournament
 tagline:
-url: http://localhost:3001/
+url: http://localhost:3000
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src

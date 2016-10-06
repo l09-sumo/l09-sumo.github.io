@@ -18,13 +18,14 @@
     }
 
     .about {
+        position: relative;
+        bottom: 0px;
+        left: 0;
         width: 360px;
-        position: absolute;
-        bottom: 60px;
-        left: 50%;
-        margin-left: -180px;
+        margin: 0 auto 40px;
         text-align: center;
         color: #fff;
+        padding-top: 30px;
         line-height: 22px;
 
         > * {
@@ -121,18 +122,6 @@
                     }
                 }
             }
-        }
-
-        @media (max-width: 1120px) {
-            position: relative;
-            bottom: 0px;
-            left: 0;
-
-            width: 360px;
-            margin: 0 auto 40px;
-            text-align: center;
-            color: #fff;
-            padding-top: 30px;
         }
 
         @media (max-width: 400px) {
