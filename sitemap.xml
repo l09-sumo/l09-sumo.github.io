@@ -2,10 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>http://l09-sumo.github.io/</loc>
-    <lastmod>2016-10-06T10:15:04+02:00</lastmod>
+    <lastmod>2016-10-27T23:58:06+02:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+  
+    <url>
+      <loc>http://l09-sumo.github.io/2016/10/27/last-post/</loc>
+      
+        <lastmod>2016-10-27T00:00:00+02:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
   
     <url>
       <loc>http://l09-sumo.github.io/2016/10/06/pentabot/</loc>
@@ -50,7 +63,7 @@
   <url>
     <loc>http://l09-sumo.github.io/404/</loc>
     
-      <lastmod>2016-10-06T10:15:04+02:00</lastmod>
+      <lastmod>2016-10-27T23:58:06+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -63,7 +76,7 @@
   <url>
     <loc>http://l09-sumo.github.io/atom.xml</loc>
     
-      <lastmod>2016-10-06T10:15:04+02:00</lastmod>
+      <lastmod>2016-10-27T23:58:06+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -76,7 +89,7 @@
   <url>
     <loc>http://l09-sumo.github.io/</loc>
     
-      <lastmod>2016-10-06T10:15:04+02:00</lastmod>
+      <lastmod>2016-10-27T23:58:06+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>
@@ -89,7 +102,7 @@
   <url>
     <loc>http://l09-sumo.github.io/sitemap.xml</loc>
     
-      <lastmod>2016-10-06T10:15:04+02:00</lastmod>
+      <lastmod>2016-10-27T23:58:06+02:00</lastmod>
     
     
       <changefreq>monthly</changefreq>

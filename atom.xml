@@ -4,13 +4,32 @@
  <title>L09 SUMO EXTRAVAGANZA</title>
  <link href="http://l09-sumo.github.io/atom.xml" rel="self"/>
  <link href="http://l09-sumo.github.io/"/>
- <updated>2016-10-06T10:15:04+02:00</updated>
+ <updated>2016-10-27T23:58:06+02:00</updated>
  <id>http://l09-sumo.github.io</id>
  <author>
    <name>Joakim Wimmerstedt</name>
    <email>joakim.wimmerstedt@hyperisland.se</email>
  </author>
 
+ 
+ <entry>
+   <title>Results and code</title>
+   <link href="http://l09-sumo.github.io/2016/10/27/last-post/"/>
+   <updated>2016-10-27T00:00:00+02:00</updated>
+   <id>http://l09-sumo.github.io/2016/10/27/last-post</id>
+   <content type="html">&lt;h1&gt;Second place!&lt;/h1&gt;
+
+&lt;p&gt;Compadres, it&amp;rsquo;s with honor and a tear slowly rolling down my cheek that I get to say these final words to you. Pentabot was amazing in the tournament and actually placed second. That&amp;rsquo;s not bad considering we were 16 teams competing.&lt;/p&gt;
+
+&lt;h1&gt;Pre-tournament alterations&lt;/h1&gt;
+
+&lt;p&gt;A couple of days before the tournament we decided to change the construction of Pentabot. We needed a lower front that actually covered the wheels. I think this is what actually helped us get a high placement. Most robots we met tried to get under our front but failed to do so. We also had an advantage in that we seemed to have quicker turning speed than the others, and that&amp;rsquo;s mostly because we actually tried out different turning speeds and found that too much and we&amp;rsquo;d overshoot the target.&lt;/p&gt;
+
+&lt;h1&gt;Code&lt;/h1&gt;
+
+&lt;p&gt;While I don&amp;rsquo;t have any pictures to share, I can share the actual code we used. It&amp;rsquo;s commented in swedish for learning purposes. You can find it over at our github page: [here][&lt;a href=&quot;https://github.com/l09-sumo/sumo&quot;&gt;https://github.com/l09-sumo/sumo&lt;/a&gt;].&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Introducing Pentabot</title>
